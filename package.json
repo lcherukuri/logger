@@ -1,0 +1,18 @@
+{
+  "name": "@lcherukuri/logger",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build/index.js",
+  "types": "types/index.d.ts",
+  "scripts": {
+    "build": "npm run clean && tsc -p tsconfig.json",
+    "clean": "rm -rf build types"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^13.7.6",
+    "typescript": "^3.8.2"
+  }
+}

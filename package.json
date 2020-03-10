@@ -23,6 +23,7 @@
   "repository": "git://github.com/lcherukuri/logger.git",
   "files": [
     "src",
+    !"src/**/__tests__/**",
     "build"
   ]
 }
